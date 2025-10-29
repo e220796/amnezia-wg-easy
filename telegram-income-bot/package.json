@@ -1,0 +1,20 @@
+{
+  "name": "telegram-income-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot для учета доходов и генерации месячных отчетов",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": ["telegram", "bot", "income", "tracking"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

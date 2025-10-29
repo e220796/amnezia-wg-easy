@@ -1,0 +1,16 @@
+# Зависимости
+node_modules/
+
+# Переменные окружения
+.env
+
+# Данные бота
+incomes.json
+
+# Логи
+*.log
+npm-debug.log*
+
+# Операционная система
+.DS_Store
+Thumbs.db
